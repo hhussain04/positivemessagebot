@@ -17,7 +17,7 @@ Requirements
 Usage
 ```bash
 1. Clone this repository:
-   git clone https://github.com/hhussain04/positive-commit-bot.git
+   git clone https://github.com/hhussain04/positivemessagebot.git
    cd positive-commit-bot
 
 2. Run the script manually:
