@@ -20,7 +20,8 @@ quote, author = get_random_message()
 # Create/update a file with the commit timestamp and message
 file_name = "positive_message.txt"
 with open(file_name, "a") as file:
-    file.write(f"{datetime.datetime.now()}:\n")
+    timestamp = datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+    file.write(f"{timestamp}:\n")
     file.write(f"\"{quote}\"\n")
     file.write(f"— {author}\n\n")
 
