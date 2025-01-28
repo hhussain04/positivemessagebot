@@ -18,12 +18,12 @@ def get_random_message():
 quote, author = get_random_message()
 
 # Create/update a file with the commit timestamp and message
-file_name = "positive_message.txt"
+file_name = "positive_message.md"
 with open(file_name, "a") as file:
     timestamp = datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S")
-    file.write(f"{timestamp}:\n")
-    file.write(f"\"{quote}\"\n")
-    file.write(f"— {author}\n\n")
+    file.write(f"**\"{quote}\"**  \n")
+    file.write(f"— {author}  \n")
+    file.write(f"*{timestamp}*  \n\n")
 
 # Git commands to commit and push the changes
 subprocess.run(["git", "add", file_name])
