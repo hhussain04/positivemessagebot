@@ -21,6 +21,7 @@ quote, author = get_random_message()
 file_name = "positive_message.md"
 with open(file_name, "a") as file:
     timestamp = datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+    file.write('\n')
     file.write(f"**\"{quote}\"**  \n")
     file.write(f"— {author}  \n")
     file.write(f"*{timestamp}*  \n\n")
