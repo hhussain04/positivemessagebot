@@ -40,14 +40,13 @@
 
 **"Cease striving. Then there will be transformation."**  
 — Zhuangzi  
-*2025-01-28 22:09:16*  
-
+*2025-01-28 22:09:16*
+  
 **"Where there is no struggle, there is no strength. "**  
 — Oprah Winfrey  
 *2025-01-28 22:11:06*  
 
-
 **"The road to success is always under construction.."**  
-� Lily Tomlin  
+— Lily Tomlin  
 *2025-01-28 22:12:11*  
 
