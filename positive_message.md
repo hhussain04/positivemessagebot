@@ -50,3 +50,8 @@
 â€” Lily Tomlin  
 *2025-01-28 22:12:11*  
 
+
+**"It takes a very long time to become young."**  
+— Pablo Picasso  
+*2025-01-28 22:13:47*  
+
