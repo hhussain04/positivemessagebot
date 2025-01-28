@@ -6,7 +6,7 @@ A bot that makes a random positive commit to your GitHub repository every 24 hou
 Features
 --------
 - Generates truly random positive messages using the ZenQuotes API.
-- Automatically commits and pushes changes to repository.
+- Automatically commits and pushes changes to the repository.
 
 Requirements
 ------------
@@ -15,25 +15,27 @@ Requirements
 - Git
 
 Usage
-```bash
+-----
 1. Clone this repository:
+   ```bash
    git clone https://github.com/hhussain04/positivemessagebot.git
-   cd positive-commit-bot
+   cd positivemessagebot
+   ```
 
 2. Run the script manually:
+   ```bash
    python3 commit_bot.py
+   ```
 
 3. Automate it using:
    - Cron (Linux/Mac)
-   - Task Scheduler (Windows)#
-```
+   - Task Scheduler (Windows)
 
 File Details
 ------------
-- commit_bot.py: Main script that fetches a random message, updates a file, and commits to the repository.
-- positive_message.txt: Log of all positive messages added.
+- `commit_bot.py`: Main script that fetches a random message, updates a file, and commits to the repository.
+- `positive_message.md`: Log of all positive messages added.
 
 Credits
 -------
 - ZenQuotes API (https://zenquotes.io/) for random positive quotes.
-
